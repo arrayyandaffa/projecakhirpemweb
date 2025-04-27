@@ -760,13 +760,13 @@ a.navbar-brand img {
 }
 
 .tab_menu ul li:nth-child(7),.tab_menu ul li:nth-child(5) {
-    background: #002147;
+    background: #103884;
     transform: skew(-30deg);
 	color:#fff;
 }
 
 .tab_menu ul li:nth-child(6) {
-    background: #d4a81e;
+    background: #C89D1F;
     transform: skew(-30deg);
 	color:#fff;
 }
@@ -1753,7 +1753,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #0b1c2c;
+    background:  #103884;
     padding: 50px 0;
 }
 
@@ -2066,7 +2066,7 @@ ul.social_icon li {
 }
 
 .footer_bottom {
-    background: #095a83;
+    background: #1B4D89;
     padding: 15px 0;
 }
 
@@ -2314,5 +2314,69 @@ section.inner_banner h3 {
 .contact_form button:hover,
 .contact_form button:focus {
 	background: #fff;
-	color: #12385b;
+	color: #84C2F6;
+}
+
+/* Container utama slider */
+.simple-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+
+/* Wrapper semua slide */
+.simple-slider-wrapper {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    height: 100%;
+}
+
+/* Satu slide */
+.simple-slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Konten di tengah slide */
+.simple-slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.4);
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Judul di dalam slide */
+.simple-slide-content h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+/* Subjudul */
+.simple-slide-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Tombol */
+.simple-button {
+    padding: 10px 25px;
+    background: #1B4D89;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.simple-button:hover {
+    background: #C89D1F;
 }

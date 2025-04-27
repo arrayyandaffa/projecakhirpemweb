@@ -7,42 +7,47 @@
                 }
                 </style>
 
-                <!-- Pogo Slider -->
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pogo-slider@1.0.0/pogo-slider.min.css">
-
-                <div class="ulockd-home-slider">
-                    <div class="pogoSlider" id="js-main-slider">
-                        <!-- Slide 1 -->
-                        
-
-                        <div class="pogoSlider-slide" style="background-image:url({{ asset('images/banner_img.png') }});">
-                            <div class="container">
-                                <div class="slide_text">
-                                    <h3><span class="theme_color">You only have know one thing</span><br>you can learn anything</h3>
-                                    <h4>Free Educations</h4>
-                                    <a class="contact_bt" href="#">Start a Course</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Slide 2 -->
-                        <div class="pogoSlider-slide" style="background-image:url({{ asset('images/banner_img.png') }});">
-                            <div class="container">
-                                <div class="slide_text">
-                                    <h3><span class="theme_color">Second Slide Title</span><br>More learning</h3>
-                                    <h4>More Education</h4>
-                                    <a class="contact_bt" href="#">Join Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- .pogoSlider -->
+<!-- Custom Simple Slider -->
+<div class="simple-slider" id="simpleSlider">
+    <div class="simple-slider-wrapper">
+        
+        <!-- Slide 1 -->
+        <div class="simple-slide" style="background-image: url('{{ asset('images/sdn2krebet1.png') }}');">
+            <div class="simple-slide-content">
+                <h2>You only have to know one thing</h2>
+                <p>You can learn anything</p>
+                <a class="simple-button" href="#">Start a Course</a>
             </div>
         </div>
+
+        <!-- Slide 2 -->
+        <div class="simple-slide" style="background-image: url('{{ asset('images/banner_img.png') }}');">
+            <div class="simple-slide-content">
+                <h2>Second Slide Title</h2>
+                <p>More learning</p>
+                <a class="simple-button" href="#">Join Now</a>
+            </div>
+        </div>
+
     </div>
-    <!-- End Banner -->
+</div>
+
+<!-- Simple Slider Script -->
+<script>
+let currentSlide = 0;
+const slidesWrapper = document.querySelector('#simpleSlider .simple-slider-wrapper');
+const totalSlides = slidesWrapper.children.length;
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % totalSlides;
+    slidesWrapper.style.transform = `translateX(-${currentSlide * 100}%)`;
+}
+
+setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
+</script>
+
+
+
 
     <!-- section -->
     <div class="section tabbar_menu">
@@ -322,7 +327,7 @@
 
 
     <!-- section -->
-    <div class="section contact_section" style="background:#12385b;">
+    <div class="section contact_section" style="background:#84C2F6;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">

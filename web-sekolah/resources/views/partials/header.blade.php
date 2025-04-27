@@ -3,7 +3,7 @@
     <nav class="navbar header-nav navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="{{ asset('images/logo.png') }}" alt="image">
+                <img src="{{ asset('images/SDN2KREBET1.png') }}" alt="image">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
                 <span></span>
@@ -25,8 +25,28 @@
                             <a class="dropdown-item" href="{{ url('/profil/akreditasi') }}">Akreditasi Sekolah</a>
                         </div>
                     </li>
-
-                    <li><a class="nav-link {{ Request::is('courses') ? 'active' : '' }}" href="{{ url('/courses') }}">Directory</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle {{ Request::is('profil/*') ? 'active' : '' }}" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Directory
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/direktori/tenagapendidik') }}">Tenaga Pendidik</a>
+                            <a class="dropdown-item" href="{{ url('/direktori/siswa') }}">Siswa</a>
+                            <a class="dropdown-item" href="{{ url('/direktori/alumni') }}">Alumni</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="nav-link dropdown-toggle {{ Request::is('profil/*') ? 'active' : '' }}" href="#" id="navbarDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Directory
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('/direktori/tenagapendidik') }}">Tenaga Pendidik</a>
+                            <a class="dropdown-item" href="{{ url('/direktori/siswa') }}">Siswa</a>
+                            <a class="dropdown-item" href="{{ url('/direktori/alumni') }}">Alumni</a>
+                        </div>
+                    </li>
                     <li><a class="nav-link {{ Request::is('research') ? 'active' : '' }}" href="{{ url('/research') }}">Gallery</a></li>
                     <li><a class="nav-link {{ Request::is('news') ? 'active' : '' }}" href="{{ url('/news') }}">Location</a></li>
                     <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/contact') }}">Contact</a></li>

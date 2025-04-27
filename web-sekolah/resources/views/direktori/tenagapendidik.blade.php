@@ -3,8 +3,10 @@
 
 @section('content')
     <div class="container mt-5">
-        <h2>Struktur</h2>
+        <h2>Tendik</h2>
 
         </p>
     </div>
 @endsection
+
+
