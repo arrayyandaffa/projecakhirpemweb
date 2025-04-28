@@ -8,7 +8,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="footer_blog">
                         <div class="full margin-bottom_30">
-                            <img src="{{ asset('images/footer_logo.png') }}" alt="#" />
+                            <img src="{{ asset('images/sdn2krebetputih.png') }}" alt="#" />
                         </div>
                         <div class="full white_fonts">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
