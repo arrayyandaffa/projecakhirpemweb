@@ -180,7 +180,7 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
                 </div>
                 <div class="col-md-4">
                     <div class="full blog_img_popular">
-                        <img class="img-responsive" src="{{ asset('assets/images/p1.png') }}" alt="#" /> 
+                        <img class="img-responsive" src="{{ asset('assets/images/guru.jpg') }}" alt="#" /> 
                         <h4>Tenaga Pendidik</h4>
                     </div>
                 </div>
@@ -280,9 +280,16 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="full float-right_img">
-                        <img src="{{ asset('images/img6.png') }}" alt="#" />
+                <div class="map-container">
+                    <div class="map-card">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.88183542223!2d111.36799477575175!3d-7.90741137869691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e799df86428cc8f%3A0x10bb0d92beeb0a48!2sSDN%202%20Krebet!5e0!3m2!1sid!2sid!4v1746029234972!5m2!1sid!2sid" 
+                            allowfullscreen 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
                     </div>
+                </div>
                 </div>
                 <div class="col-md-6 layout_padding_2">
                     <div class="full">
@@ -297,9 +304,7 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
                                 sunt in culpa qui officia deserunt mollit anim id est laborum
                             </p>
                         </div>
-                        <div class="full">
-                            <a class="hvr-radial-out button-theme" href="#">Apply</a>
-                        </div>
+                    
                     </div>
                 </div>
             </div>

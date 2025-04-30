@@ -11,9 +11,7 @@
                             <img src="{{ asset('images/sdn2krebetputih.png') }}" alt="#" />
                         </div>
                         <div class="full white_fonts">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip</p>
+                            <p> Salah satu lembaga pembelajaran tingkat sekolah dasar beralamat di Jalan Watu Gong No. 17 Ds Krebet Kecamatan Jambon Kabupaten Ponorogo Propinsi Jawa Timur</p>
                         </div>
                     </div>
                 </div>
@@ -23,11 +21,11 @@
                     <div class="footer_blog footer_menu white_fonts">
                         <h3>Quick links</h3>
                         <ul>
-                            <li><a href="#">> Join Us</a></li>
-                            <li><a href="#">> Maintenance</a></li>
-                            <li><a href="#">> Language Packs</a></li>
-                            <li><a href="#">> LearnPress</a></li>
-                            <li><a href="#">> Release Status</a></li>
+                            <li><a href="#">> Beranda</a></li>
+                            <li><a href="#">> Profil</a></li>
+                            <li><a href="#">> Directory</a></li>
+                            <li><a href="#">> Gallery</a></li>
+                            <li><a href="#">> Location</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,8 +33,8 @@
                 <!-- Newsletter -->
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="footer_blog full white_fonts">
-                        <h3>Newsletter</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        <h3>Information</h3>
+                        <p>Ingin tahu kegiatan seru dan berita terbaru dari SD Negeri 2 Krebet? Daftarkan email Anda di sini!</p>
                         <div class="newsletter_form">
                             <form action="{{ url('/') }}" method="POST">
                                 @csrf

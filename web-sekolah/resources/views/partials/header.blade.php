@@ -37,7 +37,7 @@
                         </div>
                     </li>
                     
-                    <li><a class="nav-link {{ Request::is('research') ? 'active' : '' }}" href="{{ url('/gallery/galleryy') }}">Gallery</a></li>
+                    <li><a class="nav-link {{ Request::is('gallery/galleryy') ? 'active' : '' }}" href="{{ url('/gallery/galleryy') }}">Gallery</a></li>
                     <li><a class="nav-link {{ Request::is('news') ? 'active' : '' }}" href="{{ url('/news') }}">Location</a></li>
                     <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/contact') }}">Contact</a></li>
                 </ul>
