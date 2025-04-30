@@ -275,27 +275,39 @@ const slides = [
             desc: "Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim."
         },
         right: {
-            img: "{{ asset('images/img9.png') }}",
+            img: "{{ asset('images/sholat.jpg') }}",
             title: "Sholat Berjamaah",
             desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
         }
     },
     {
         left: {
-            img: "{{ asset('images/img9.png') }}",
+            img: "{{ asset('images/sholat.jpg') }}",
             title: "Sholat Berjamaah",
             desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
         },
         right: {
-            img: "{{ asset('images/senam.jpg') }}",
-            title: "Senam",
+            img: "{{ asset('images/ngaji.jpg') }}",
+            title: "Ngaji",
             desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
         }
     },
     {
         left: {
-            img: "{{ asset('images/senam.jpg') }}",
-            title: "Senam",
+            img: "{{ asset('images/ngaji.jpg') }}",
+            title: "Ngaji",
+            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+        },
+        right: {
+            img: "{{ asset('images/icebreaking.jpg') }}",
+            title: "Icebreaking",
+            desc: "Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini."
+        }
+    },
+    {
+        left: {
+            img: "{{ asset('images/icebreaking.jpg') }}",
+            title: "Icebreaking",
             desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
         },
         right: {
