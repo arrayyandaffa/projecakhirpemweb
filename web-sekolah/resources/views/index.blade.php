@@ -225,16 +225,16 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/img9.png') }}" alt="#" />
-                                            <h4>Technology</h4>
-                                            <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                            <img class="img-responsive" src="{{ asset('images/drumband.jpg') }}" alt="#" />
+                                            <h4>Drumband</h4>
+                                            <p>Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini.</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/img8.png') }}" alt="#" />
-                                            <h4>Education</h4>
-                                            <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                            <img class="img-responsive" src="{{ asset('images/pramuka.jpg') }}" alt="#" />
+                                            <h4>Pramuka</h4>
+                                            <p>Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim.</p>
                                         </div>
                                     </div>
                                 </div>
