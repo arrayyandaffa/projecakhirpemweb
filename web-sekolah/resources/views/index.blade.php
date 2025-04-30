@@ -220,52 +220,125 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
                     <div id="demo" class="carousel slide" data-ride="carousel">
 
                         <!-- The slideshow -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/drumband.jpg') }}" alt="#" />
-                                            <h4>Drumband</h4>
-                                            <p>Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/pramuka.jpg') }}" alt="#" />
-                                            <h4>Pramuka</h4>
-                                            <p>Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/img9.png') }}" alt="#" />
-                                            <h4>Technology</h4>
-                                            <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                            <img class="img-responsive" src="{{ asset('images/img8.png') }}" alt="#" />
-                                            <h4>Education</h4>
-                                            <p>Pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="full blog_img_popular" onclick="goToGallery()">
+            <img id="leftImage" class="img-responsive" src="{{ asset('images/drumband.jpg') }}" alt="#" />
+            <h4 id="leftTitle">Drumband</h4>
+            <p id="leftDesc">Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini.</p>
+        </div>
+    </div>
 
-                        <!-- Left and right controls -->
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="full blog_img_popular">
+            <img id="rightImage" class="img-responsive" src="{{ asset('images/pramuka.jpg') }}" alt="#" />
+            <h4 id="rightTitle">Pramuka</h4>
+            <p id="rightDesc">Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Left and right controls -->
                         <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+                            <span class="carousel-control-prev-icon" onclick="prevSlide()"></span>
                         </a>
                         <a class="carousel-control-next" href="#demo" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                            <span class="carousel-control-next-icon" onclick="nextSlide()"></span>
                         </a>
+
+<!-- Tombol 
+<div class="text-center mt-3">
+    <button onclick="prevSlide()">⟵ Sebelumnya</button>
+    <button onclick="nextSlide()">Berikutnya ⟶</button>
+</div>-->
+
+<script>
+// Data slide
+const slides = [
+    {
+        left: {
+            img: "{{ asset('images/drumband.jpg') }}",
+            title: "Drumband",
+            desc: "Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini."
+        },
+        right: {
+            img: "{{ asset('images/pramuka.jpg') }}",
+            title: "Pramuka",
+            desc: "Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim."
+        }
+    },
+    {
+        left: {
+            img: "{{ asset('images/pramuka.jpg') }}",
+            title: "Pramuka",
+            desc: "Lomba Pramuka sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim."
+        },
+        right: {
+            img: "{{ asset('images/img9.png') }}",
+            title: "Sholat Berjamaah",
+            desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
+        }
+    },
+    {
+        left: {
+            img: "{{ asset('images/img9.png') }}",
+            title: "Sholat Berjamaah",
+            desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
+        },
+        right: {
+            img: "{{ asset('images/senam.jpg') }}",
+            title: "Senam",
+            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+        }
+    },
+    {
+        left: {
+            img: "{{ asset('images/senam.jpg') }}",
+            title: "Senam",
+            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+        },
+        right: {
+            img: "{{ asset('images/drumband.jpg') }}",
+            title: "Drumband",
+            desc: "Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini."
+        }
+    }
+];
+
+let currentIndex = 0;
+
+function showSlide(index) {
+    const slide = slides[index];
+
+    // Update gambar kiri
+    document.getElementById('leftImage').src = slide.left.img;
+    document.getElementById('leftTitle').innerText = slide.left.title;
+    document.getElementById('leftDesc').innerText = slide.left.desc;
+
+    // Update gambar kanan
+    document.getElementById('rightImage').src = slide.right.img;
+    document.getElementById('rightTitle').innerText = slide.right.title;
+    document.getElementById('rightDesc').innerText = slide.right.desc;
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    showSlide(currentIndex);
+}
+
+function goToGallery() {
+    window.location.href = "{{ url('/gallery/galleryy') }}";
+}
+</script>
+
+
+                        
 
                     </div>
                 </div>
