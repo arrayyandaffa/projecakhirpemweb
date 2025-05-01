@@ -50,8 +50,8 @@
                     <div class="footer_blog full white_fonts">
                         <h3>Contact us</h3>
                         <ul class="full">
-                            <li><img src="{{ asset('images/i5.png') }}"><span>London 145<br>United Kingdom</span></li>
-                            <li><img src="{{ asset('images/i6.png') }}"><span>demo@gmail.com</span></li>
+                            <li><img src="{{ asset('images/i5.png') }}"><span>Jl. Watu Gong No. 17 Desa Krebet<br>Indonesia</span></li>
+                            <li><img src="{{ asset('images/i6.png') }}"><span>sdnkrebet2@gmail.com</span></li>
                             <li><img src="{{ asset('images/i7.png') }}"><span>+12586954775</span></li>
                         </ul>
                     </div>
