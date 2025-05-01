@@ -277,38 +277,38 @@ const slides = [
         right: {
             img: "{{ asset('images/sholat.jpg') }}",
             title: "Sholat Berjamaah",
-            desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
+            desc: "Kegiatan sholat berjamaah menanamkan kebiasaan ibadah, mempererat kebersamaan, serta membentuk karakter spiritual sejak dini."
         }
     },
     {
         left: {
             img: "{{ asset('images/sholat.jpg') }}",
             title: "Sholat Berjamaah",
-            desc: "Kegiatan sholat berjamaah menanamkan nilai spiritual dan kebersamaan sejak usia dini."
+            desc: "Kegiatan sholat berjamaah menanamkan kebiasaan ibadah, mempererat kebersamaan, serta membentuk karakter spiritual sejak dini."
         },
         right: {
             img: "{{ asset('images/ngaji.jpg') }}",
             title: "Ngaji",
-            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+            desc: "Kegiatan mengaji bersama diikuti oleh siswa-siswi SD Negeri 2 Krebet sebagai bagian dari pembinaan karakter religius."
         }
     },
     {
         left: {
             img: "{{ asset('images/ngaji.jpg') }}",
             title: "Ngaji",
-            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+            desc: "Kegiatan mengaji bersama diikuti oleh siswa-siswi SD Negeri 2 Krebet sebagai bagian dari pembinaan karakter religius."
         },
         right: {
             img: "{{ asset('images/icebreaking.jpg') }}",
             title: "Icebreaking",
-            desc: "Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini."
+            desc: "Kegiatan icebreaking di kelas dilakukan sebagai upaya menciptakan suasana belajar yang menyenangkan dan interaktif."
         }
     },
     {
         left: {
             img: "{{ asset('images/icebreaking.jpg') }}",
             title: "Icebreaking",
-            desc: "Kegiatan senam untuk meningkatkan kesehatan dan semangat anak-anak di pagi hari."
+            desc: "Kegiatan icebreaking di kelas dilakukan sebagai upaya menciptakan suasana belajar yang menyenangkan dan interaktif."
         },
         right: {
             img: "{{ asset('images/drumband.jpg') }}",
@@ -348,9 +348,6 @@ function goToGallery() {
     window.location.href = "{{ url('/gallery/galleryy') }}";
 }
 </script>
-
-
-                        
 
                     </div>
                 </div>
