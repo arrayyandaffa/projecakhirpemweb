@@ -380,10 +380,10 @@ function goToGallery() {
                         </div>
                         <div class="full">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                                sunt in culpa qui officia deserunt mollit anim id est laborum
+                                SD Negeri 2 Krebet terletak di Dusun Krajan, Desa Krebet, Kecamatan Jambon, Kabupaten Ponorogo, Jawa Timur. 
+                                Sekolah ini berada di lingkungan yang strategis dan mudah diakses dari berbagai arah, baik oleh peserta didik 
+                                maupun masyarakat sekitar. Dengan suasana yang tenang dan kondusif, lokasi SDN 2 Krebet mendukung proses 
+                                belajar-mengajar yang nyaman serta mendekatkan sekolah dengan komunitas lokal.
                             </p>
                         </div>
                     
