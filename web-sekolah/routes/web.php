@@ -44,3 +44,9 @@ Route::get('/test', function () {
 Route::get('/gallery/galleryy', function () {
     return view('gallery.galleryy');
 });
+
+use App\Http\Controllers\DirektoriController;
+
+Route::get('/direktori/tenagapendidik', [DirektoriController::class, 'tenagapendidik'])->name('direktori.tenagapendidik');
+Route::get('/direktori/siswa', [DirektoriController::class, 'siswa'])->name('direktori.siswa');
+Route::get('/direktori/alumni', [DirektoriController::class, 'alumni'])->name('direktori.alumni');
