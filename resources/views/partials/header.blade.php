@@ -14,11 +14,11 @@
                 <ul class="navbar-nav">
                     <li><a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Beranda</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle {{ Request::is('profil/*') ? 'active' : '' }}" href="#" id="navbarDropdown"
+                        <a id="dropdown-profil" class="nav-link dropdown-toggle {{ Request::is('profil/*') ? 'active' : '' }}" href="#" id="navbarDropdown"
                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Profil
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div  class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/profil/tentang') }}">Tentang Sekolah</a>
                             <a class="dropdown-item" href="{{ url('/profil/visimisi') }}">Visi dan Misi</a>
                             <a class="dropdown-item" href="{{ url('/profil/struktur') }}">Struktur Organisasi</a>

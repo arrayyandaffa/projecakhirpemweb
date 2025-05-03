@@ -8,7 +8,7 @@
         @php
             $kelas = 'kelas' . $i;
         @endphp
-
+        <br><br>
         <h2 class="mt-4">Siswa Kelas {{ $i }}</h2>
         <div class="table-responsive">
             <table class="table table-bordered table-striped">

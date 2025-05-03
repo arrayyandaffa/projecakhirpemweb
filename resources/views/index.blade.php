@@ -14,18 +14,18 @@
         <!-- Slide 1 -->
         <div class="simple-slide" style="background-image: url('{{ asset('images/sdn2krebet1.png') }}');">
             <div class="simple-slide-content">
-                <h2>You only have to know one thing</h2>
-                <p>You can learn anything</p>
-                <a class="simple-button" href="#">Start a Course</a>
+                <h2>Sekolah Dasar Negeri 2 Krebet</h2>
+                <p>Melayani pendidikan dasar terbaik untuk masa depan anak bangsa</p>
+                <a class="simple-button" href="#profil">Lihat Profil Sekolah</a>
             </div>
         </div>
 
         <!-- Slide 2 -->
-        <div class="simple-slide" style="background-image: url('{{ asset('images/banner_img.png') }}');">
+        <div class="simple-slide" style="background-image: url('{{ asset('images/gambartuguversiasli.jpg') }}');">
             <div class="simple-slide-content">
-                <h2>Second Slide Title</h2>
-                <p>More learning</p>
-                <a class="simple-button" href="#">Join Now</a>
+                <h2>Bersama Mendidik Generasi Hebat</h2>
+                <p>SD Negeri 2 Krebet, pilihan tepat untuk masa depan anak Anda</p>
+                <a class="simple-button" href="#tentang-kami">Kenali Lebih Dekat</a>
             </div>
         </div>
 
@@ -50,7 +50,7 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
 
 
     <!-- section -->
-    <div class="section tabbar_menu">
+    <div class="section tabbar_menu" id="tentang-kami">
        <div class="container">
           <div class="row">
               <div class="col-md-12">
@@ -78,7 +78,7 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
             <div class="row">
             <div class="col-md-6">
                     <div class="full">
-                        <img src="{{ asset('assets/images/img2.png') }}" alt="#" />
+                        <img src="{{ asset('assets/images/gambarfototugu.jpg') }}" alt="#" />
                     </div>
                 </div>
                 <div class="col-md-6 layout_padding_2">
@@ -106,7 +106,7 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
 
     <!-- section -->
     <div class="section margin-top_50">
-        <div class="container">
+        <div id="profil" class="container">
             <div class="row">
                 <div class="col-lg-12 layout_padding_2">
                     <div class="full">
@@ -419,7 +419,7 @@ function goToGallery() {
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="full float-right_img">
-                        <img src="{{ asset('images/img10.png') }}" alt="#">
+                        <img src="{{ asset('images/logocontactus.jpg') }}" alt="#">
                     </div>
                 </div>
                 <div class="layout_padding col-lg-6 col-md-6 col-sm-12">

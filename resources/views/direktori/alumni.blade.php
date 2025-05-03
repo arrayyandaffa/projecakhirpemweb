@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="container mt-5">
+<br><br>
     <h2 class="mb-4">Data Alumni</h2>
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
@@ -28,5 +29,6 @@
         </tbody>
     </table>
 </div>
+<br>
 @endsection
 

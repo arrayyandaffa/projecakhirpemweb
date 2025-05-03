@@ -2,6 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
+<br><br>
     <div class="container mt-5">
         <h2>Data Tenaga Kependidikan</h2>
         <table border="1" cellpadding="8">
@@ -28,6 +29,8 @@
                 @endforeach
             </tbody>
         </table>
+</div>
+<br>
 @endsection
 
 
