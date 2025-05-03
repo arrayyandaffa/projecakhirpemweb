@@ -24,11 +24,11 @@
 
                     {{-- Gambar sertifikat akreditasi jika ada --}}
                     <div class="full margin-top_30">
-                        <img class="img-fluid" src="{{ asset('images/sertifikatakreditasi.jpg') }}" alt="Sertifikat Akreditasi SDN 2 Krebet">
+                        <img class="img-fluid" src="{{ asset('images/SERTIF1.jpg') }}" alt="Sertifikat Akreditasi SDN 2 Krebet">
                     </div>
 
                     <div class="full margin-top_30">
-                        <a class="hvr-radial-out button-theme" href="#">Lihat Detail</a>
+                        <a class="hvr-radial-out button-theme" href="https://drive.google.com/file/d/1dMkv0pGGCRW-U-Vb50u_GJtnQqFnF2I4/view?usp=sharing">Lihat Detail</a>
                     </div>
                 </div>
             </div>

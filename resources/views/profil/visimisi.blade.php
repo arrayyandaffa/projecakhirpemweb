@@ -2,10 +2,19 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">
-        <h2>Visi dan Misi</h2>
-        <p>“Terbentuknya insan beriman, taqwa, dan berkarakter”</p>
-        <p>Misi:<br>
+<br><br>
+
+<div class="section margin-top_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg layout_padding_2">
+                    <div class="full">
+                        <div class="heading_main text_align_right">
+                            <h2><span>Visi dan Misi</span> SDN 2 Krebet</h2>
+                        </div>
+                        <div class="full">
+                        <p>“Terbentuknya insan beriman, taqwa, dan berkarakter”</p>
+        <p>
         1.	Menanamkan nilai-nilai keagamaan bagi semua warga sekolah dalam kegiatan sehari hari di sekolah.<br>
         2.	Meningkatkan kompetensi dan kinerja personalia sekolah sesuai dengan norma agama yang dianut sehingga tercipta suasana yang religius.<br>
         3.	Mengoptimalkan layanan pendidikan dengan memperhatikan kebutuhan perkembangan peserta didik.<br>
@@ -16,7 +25,15 @@
         8.	Membudayakan hidup bersih, sehat sebagai wujud pelestarian terhadap lingkungan dalam kegiatan sehari-hari di sekolah dan di masyarakat<br>
         9.	Membiasakan dan membudayakan berlaku tidak korupsi dalam semua kegiatan di sekolah<br>
         10.	Mengembangkan perilaku sesuai dengan nilai- nilai Pancasila.<br>
-
-        </p>
+                        </div>
+                        <div class="full">
+                            <a class="hvr-radial-out button-theme" href="#">About more</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
+    
 @endsection

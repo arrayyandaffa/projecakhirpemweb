@@ -73,22 +73,26 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
         <!-- end section -->
 
         <!-- section -->
-        <div class="section margin-top_50">
+    <div class="section margin-top_50">
         <div class="container">
-            <div class="row">
-            <div class="col-md-6">
-                    <div class="full">
-                        <img src="{{ asset('assets/images/gambarfototugu.jpg') }}" alt="#" />
+            <div class="row align-items-center">
+                <!-- Gambar -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <div class="full text-center">
+                        <img src="{{ asset('assets/images/gambarfototugu.jpg') }}" alt="Foto SDN 2 Krebet" class="img-fluid rounded shadow" />
                     </div>
                 </div>
-                <div class="col-md-6 layout_padding_2">
+
+                <!-- Teks -->
+                <div class="col-lg-6 col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_right">
                             <h2><span>Tentang</span> SDN 2 Krebet</h2>
                         </div>
                         <div class="full">
-                            <p>SD Negeri 2 Krebet sebagai salah satu lembaga pembelajaran tingkat sekolah dasar berlamat di Jalan Watu Gong No. 17 
-                                Ds Krebet Kecamatan Jambon Kabupaten Ponorogo Propinsi Jawa Timur. Secara geografis berada di selatan kecamatan  Jambon  
+                            <p>
+                                SD Negeri 2 Krebet sebagai salah satu lembaga pembelajaran tingkat sekolah dasar beralamat di Jalan Watu Gong No. 17 
+                                Ds Krebet Kecamatan Jambon Kabupaten Ponorogo Propinsi Jawa Timur. Secara geografis berada di selatan kecamatan Jambon  
                                 kurang lebih jarak 3 kilo meter. Lokasi SD Negeri 2 Krebet yang berada di Desa Krebet Kec. Jambon,  
                                 lingkungan sekitarnya masih banyak persawahan  dan jauh dari kebisingan sehingga nyaman untuk belajar.
                             </p>
@@ -98,10 +102,10 @@ setInterval(nextSlide, 4000); // Ganti slide tiap 4 detik
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>
+
     <!-- end section -->
 
     <!-- section -->

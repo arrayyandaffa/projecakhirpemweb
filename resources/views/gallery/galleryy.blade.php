@@ -16,25 +16,91 @@
         </div>
 
         <div class="row gallery-grid">
-
             <!-- Item 1 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="gallery-item">
-                    <img class="img-fluid" src="{{ asset('images/pramuka.jpg') }}" alt="Pramuka" />
-                    <h4>Pramuka</h4>
-                    <p>Kegiatan lomba Pramuka diikuti oleh siswa-siswi SD Negeri 2 Krebet sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim. Melalui lomba ini, siswa belajar nilai-nilai kepemimpinan dan tanggung jawab dalam suasana kompetitif yang positif</p>
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/pramuka.jpg') }}" alt="Pramuka">
+                    <div class="gallery-content">
+                    <h5>PRAMUKA</h5>
+                    <p>
+                        Kegiatan lomba Pramuka diikuti oleh siswa-siswi SD Negeri 2 Krebet sebagai ajang untuk menumbuhkan kemandirian, kedisiplinan, serta keterampilan kerja sama tim. Melalui lomba ini, siswa belajar nilai-nilai kepemimpinan dan tanggung jawab dalam suasana kompetitif yang positif.
+                    </p>
+                    </div>
                 </div>
             </div>
 
             <!-- Item 2 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="gallery-item">
-                    <img class="img-fluid" src="{{ asset('images/ngaji.jpg') }}" alt="Ngaji" />
-                    <h4>Mengaji</h4>
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/ngaji.jpg') }}" alt="Ngaji" />
+                    <div class="gallery-content">
+                        <h5>Mengaji</h5>
                     <p>Kegiatan mengaji bersama diikuti oleh siswa-siswi SD Negeri 2 Krebet sebagai bagian dari pembinaan karakter religius. Melalui momen ini, siswa diajak untuk mencintai Al-Qur'an serta memperkuat akhlak dan nilai-nilai keagamaan dalam suasana yang khidmat dan penuh makna</p>
+                </div>
+                </div> 
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/icebreaking.jpg') }}" alt="Pramuka">
+                    <div class="gallery-content">
+                    <h5>IceBreaking</h5>
+                    <p>
+                    Kegiatan icebreaking di kelas dilakukan sebagai upaya menciptakan suasana belajar yang menyenangkan dan interaktif. Melalui permainan ringan dan aktivitas penyegar suasana, siswa menjadi lebih semangat, fokus, serta siap menerima materi pembelajaran dengan lebih baik
+                    </p>
+                    </div>
                 </div>
             </div>
 
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/drumband.jpg') }}" alt="Pramuka">
+                    <div class="gallery-content">
+                    <h5>Drumband SD Negeri 2 Krebet</h5>
+                    <p>
+                    Semangat dan keceriaan anak-anak dalam kegiatan drumband mencerminkan kerja sama, disiplin, dan kreativitas sejak dini.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/voly.jpg') }}" alt="Pramuka">
+                    <div class="gallery-content">
+                    <h5>Voly SDN 2 Krebet</h5>
+                    <p>
+                    Siswa SD Negeri 2 Krebet menunjukkan semangat sportivitas dalam lomba voli antar kelas. Kegiatan ini melatih kekompakan, disiplin, dan semangat juang sejak dini
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/karawitan.jpg') }}" alt="Pramuka">
+                    <div class="gallery-content">
+                    <h5>Karwitan SDN 2 Krebet</h5>
+                    <p>
+                    Kegiatan karawitan di SDN 2 Krebet melatih siswa memainkan gamelan Jawa sebagai upaya melestarikan budaya daerah. Latihan rutin ini juga membentuk kedisiplinan, kerja sama, dan kecintaan terhadap seni tradisional.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="gallery-card">
+                    <img class="gallery-img" src="{{ asset('images/upacara.jpg') }}" alt="Upacara">
+                    <div class="gallery-content">
+                    <h5>Upacara Bendera SD</h5>
+                    <p>
+                    Suasana khidmat upacara bendera di halaman sekolah yang diikuti oleh siswa-siswi dengan seragam lengkap serta para guru pembina. Kegiatan ini melatih kedisiplinan, rasa hormat, dan cinta tanah air sejak dini.
+                    </p>
+                    </div>
+                </div>
+            </div>
+
+//
             <!-- Item 3 -->
             <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="gallery-item">
@@ -79,7 +145,7 @@
                     <p>Suasana khidmat upacara bendera di halaman sekolah yang diikuti oleh siswa-siswi dengan seragam lengkap serta para guru pembina. Kegiatan ini melatih kedisiplinan, rasa hormat, dan cinta tanah air sejak dini.</p>
                 </div>
             </div>
-
+//
         </div>
     </div>
 </div>

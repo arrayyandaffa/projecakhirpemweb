@@ -38,7 +38,7 @@
                     </li>
                     
                     <li><a class="nav-link {{ Request::is('gallery/galleryy') ? 'active' : '' }}" href="{{ url('/gallery/galleryy') }}">Gallery</a></li>
-                    <li><a class="nav-link {{ Request::is('news') ? 'active' : '' }}" href="{{ url('/news') }}">Location</a></li>
+                    <li><a class="nav-link {{ Request::is('news') ? 'active' : '' }}" href="{{ url('https://maps.app.goo.gl/uLX9SAZPZK9DVZbL7') }}">Location</a></li>
                     <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/contact') }}">Contact</a></li>
                 </ul>
             </div>
