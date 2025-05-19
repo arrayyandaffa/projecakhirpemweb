@@ -15,20 +15,6 @@
                 </div>
             </div>
 
-            <!-- Quick Links -->
-            <!-- <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="footer_blog footer_menu white_fonts">
-                        <h3>Quick links</h3>
-                        <ul>
-                            <li><a href="{{ url('/') }}">> Beranda</a></li>
-                            <li><a href="#">> Profil</a></li>
-                            <li><a href="#">> Directory</a></li>
-                            <li><a href="{{ url('/gallery/galleryy') }}">> Gallery</a></li>
-                            <li><a href="{{ url('https://maps.app.goo.gl/uLX9SAZPZK9DVZbL7') }}">> Location</a></li>
-                        </ul>
-                    </div>
-                </div> -->
-
             <!-- <-- Quick Links -->
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
                 <div class="footer_blog footer_menu white_fonts">

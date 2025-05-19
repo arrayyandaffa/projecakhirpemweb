@@ -12,11 +12,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Beranda</a></li>
+                    <li><a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ url('/') }}">Home</a></li>
                     <li class="nav-item dropdown">
                         <a id="dropdown-profil" class="nav-link dropdown-toggle {{ Request::is('profil/*') ? 'active' : '' }}" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Profil
+                            Profile
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="{{ url('/profil/tentang') }}">Tentang Sekolah</a>
@@ -40,38 +40,9 @@
                     <li><a class="nav-link {{ Request::is('gallery/galleryy') ? 'active' : '' }}" href="{{ url('/gallery/galleryy') }}">Gallery</a></li>
                     <li><a class="nav-link {{ Request::is('news') ? 'active' : '' }}" href="{{ url('https://maps.app.goo.gl/uLX9SAZPZK9DVZbL7') }}">Location</a></li>
                     <!-- <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="#contact">Pesan</a></li> -->
-                    <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/') }}#contact">Pesan</a></li>
+                    <li><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="{{ url('/') }}#contact">Testimony</a></li>
                 </ul>
-            <!-- </div>
-            <div class="search-box">
-                <button class="search-btn" onclick="toggleSearch()" style="font-size: 20px;">
-                    <img src="{{ asset('images/search_icon.png') }}" alt="Search" />
-                </button>
-                <input type="text" id="searchBox" placeholder="Cari..." style="display: none;" onkeypress="handleSearch(event)">
-                <!-- <input type="text" class="search-txt" placeholder="Search">
-                <a class="search-btn">
-                    <img src="{{ asset('images/search_icon.png') }}" alt="Search" />
-                </a> -->
-            <!-- </div>
-            <!-- <div style="text-align:right; padding: 10px;">
-                <button onclick="toggleSearch()" style="font-size: 20px;">🔍</button>
-                <input type="text" id="searchBox" placeholder="Cari..." style="display: none;" onkeypress="handleSearch(event)">
-            </div> -->
-
-            <!-- <script>
-                function toggleSearch() {
-                    var box = document.getElementById("searchBox");
-                    box.style.display = box.style.display === "none" ? "inline-block" : "none";
-                    if (box.style.display === "inline-block") box.focus();
-                }
-
-                function handleSearch(e) {
-                    if (e.key === 'Enter') {
-                        alert("Anda mencari: " + e.target.value);
-                        e.target.value = ""; // kosongkan setelah enter
-                    }
-                }
-            </script> --> 
+      
 
         </div>
     </nav>
