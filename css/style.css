@@ -1820,8 +1820,8 @@ p {
 }
 
 .layout_padding {
-	padding-top: 75px;
-	padding-bottom: 75px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .layout_padding_2 {
@@ -2222,7 +2222,7 @@ section.inner_banner h3 {
     background: #fff;
     font-size: 17px;
     color: #676767;
-    padding: 25px;
+    padding: 5px;
 	min-height:120px;
 }
 

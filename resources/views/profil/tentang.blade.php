@@ -35,9 +35,9 @@
                             </tbody>
                         </table>
                     </div>
-                    <div class="full">
+                    <!-- <div class="full">
                         <a class="hvr-radial-out button-theme" href="#">About more</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

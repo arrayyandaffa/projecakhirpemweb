@@ -45,6 +45,19 @@ Route::get('/gallery/galleryy', function () {
     return view('gallery.galleryy');
 });
 
+Route::get('/index/aboutTentang', function () {
+    return view('profil.tentang');
+})->name('index.aboutTentang');
+
+
+use App\Http\Controllers\TestimonialController;
+Route::post('/testimoni', [TestimonialController::class, 'store'])->name('testimonials.store');
+
+use App\Http\Controllers\HomeController;
+Route::get('/', [HomeController::class, 'index']);
+
+
+
 use App\Http\Controllers\DirektoriController;
 
 Route::get('/direktori/tenagapendidik', [DirektoriController::class, 'tenagapendidik'])->name('direktori.tenagapendidik');
