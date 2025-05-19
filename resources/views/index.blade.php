@@ -171,9 +171,6 @@
                                             <span>: DIKDAS</span>
                                         </div>
                                     </div>
-                                    <!-- <div class="full">
-                            <a class="hvr-radial-out button-theme" href="#">About more</a>
-                        </div> -->
                                 </div>
                             </div>
                         </div>

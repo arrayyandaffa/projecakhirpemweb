@@ -106,45 +106,5 @@
     </div>
 </div>
 <!-- End Gallery Section -->
-<!-- Modal PRAMUKA -->
-<div class="modal fade" id="modalPramuka" tabindex="-1" aria-labelledby="modalPramukaLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalPramukaLabel">Dokumentasi Kegiatan Pramuka</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
-            </div>
-            <div class="modal-body">
-                <div id="carouselPramuka" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="{{ asset('images/pramuka1.jpg') }}" class="d-block w-100" alt="Foto Pramuka 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset('images/pramuka2.jpg') }}" class="d-block w-100" alt="Foto Pramuka 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="{{ asset('images/pramuka3.jpg') }}" class="d-block w-100" alt="Foto Pramuka 3">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPramuka" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Sebelumnya</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPramuka" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Berikutnya</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Bootstrap 5 CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- Bootstrap 5 JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 
 @endsection
