@@ -28,7 +28,6 @@
     @include('partials.header')
 
 
-
     <!-- MAIN CONTENT -->
     @yield('content')
 
